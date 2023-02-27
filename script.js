@@ -18,9 +18,24 @@ $(document).keydown(function(event){
 
 function startGame(){
     number = Math.floor(Math.random() * 4) + 1;
-    $(".b" + number).css("opacity", 0.5);
-
+    setTimeout(function(){
+    $(".b" + number).css("opacity", 0.5)
+    switch (number) {
+        case 1:
+            b1Sound.play();
+            break;
+        case 2:
+            b2Sound.play();
+            break;
+        case 3:
+            b3Sound.play();
+        case 4:
+            b4Sound.play();
+        default:
+            break;
+    }
+    }, 300);
     setTimeout(() => 
-    $(".b" + number).css("opacity", 1), 700);
+    $(".b" + number).css("opacity", 1), 600);
     order.push(number);
 }
