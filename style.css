@@ -6,21 +6,23 @@
 }
 
 body{
-    background-color: #303633;
+    background-color: #1b1d1c;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
 
+
 h1{
     font-family: 'Libre Baskerville', serif;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 200;
     color: white;
-    margin: 3rem auto 8rem;
+    margin: 4.5rem auto 7rem;
 }
 
 .button{
+    z-index: 1000;
     width: 14rem;
     height: 14rem;
     margin: 0rem 2rem 2rem 0rem;
@@ -37,22 +39,21 @@ h1{
 }
 
 .button:active{
-    
-    transition-duration: 150ms;
+    opacity: 0.5;
 }
 
 .b1{
-    background-color: #1B998B;
+    background-color: #1BD972;
 }
 
 .b2{
-    background-color: #D7263D;
+    background-color: #F8442B;
 }
 
 .b3{
-    background-color: #FFB800;
+    background-color: #efec25;
 }
 
 .b4{
-    background-color: #5158BB;
+    background-color: #23A1DF;
 }
