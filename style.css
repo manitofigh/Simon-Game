@@ -28,18 +28,23 @@ h1{
     margin: 0rem 2rem 2rem 0rem;
     border: solid 2px #000000;
     background: white;
-    border-radius: 20px;
-    border: solid 3px white;
+    border-radius: 40px;
+    border: solid 4px black;
     cursor: pointer;
 }
 
 .button:hover{
-    border-radius: 25px;
-    transition-duration: 200ms;
+    border-color: white;
+    transition-duration: 100ms;
 }
 
 .button:active{
     opacity: 0.5;
+}
+
+.button-flash{
+    opacity: 0.5;
+    border-color: white;
 }
 
 .b1{
