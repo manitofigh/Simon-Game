@@ -23,9 +23,15 @@ function startGame(){
         $(".b" + number).addClass("button-flash");
         setTimeout(() => $(".b" + number).removeClass("button-flash"), 200);
         gameOrder.push(number);
+        checkAnswer();
         }
 }
 
+function checkAnswer(){
+    $("button").click(function (){
+
+    });
+}
 
 // function startGame(){  
 //     if (started){  
